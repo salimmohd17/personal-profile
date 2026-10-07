@@ -1,7 +1,7 @@
-/* Salim Mohamed Mwamkoba Portfolio - Modern Theme System */
+/* Salim Mohamed Mwamkoba Portfolio - Compact & Modern Design System */
 :root {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 400;
 
   /* Default Dark Mode Theme */
@@ -17,7 +17,7 @@
   --accent: #10b981;
   --accent-hover: #059669;
   --accent-glow: rgba(16, 185, 129, 0.18);
-  --header-bg: rgba(11, 15, 20, 0.85);
+  --header-bg: rgba(11, 15, 20, 0.88);
   --modal-overlay: rgba(0, 0, 0, 0.75);
   --max-width: 1140px;
 
@@ -37,7 +37,7 @@
   --accent: #059669;
   --accent-hover: #047857;
   --accent-glow: rgba(5, 150, 105, 0.14);
-  --header-bg: rgba(248, 250, 252, 0.88);
+  --header-bg: rgba(248, 250, 252, 0.9);
   --modal-overlay: rgba(15, 23, 42, 0.5);
 
   color-scheme: light;
@@ -71,42 +71,43 @@ button {
 }
 
 .container {
-  width: min(calc(100% - 48px), var(--max-width));
+  width: min(calc(100% - 36px), var(--max-width));
   margin: 0 auto;
 }
 
+/* REDUCED SECTION PADDING */
 .section-padding {
-  padding: 100px 0;
+  padding: 48px 0;
   border-bottom: 1px solid var(--border-subtle);
 }
 
 .section-eyebrow {
   display: inline-block;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.14em;
   color: var(--accent);
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 /* TOAST NOTIFICATION */
 .toast {
   position: fixed;
-  bottom: 28px;
-  right: 28px;
+  bottom: 20px;
+  right: 20px;
   z-index: 1000;
   background: var(--card-bg);
   border: 1px solid var(--accent);
   color: var(--text);
-  padding: 12px 20px;
+  padding: 10px 16px;
   border-radius: 8px;
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 14px;
+  gap: 8px;
+  font-size: 13px;
   font-weight: 600;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   animation: slideIn 0.3s ease forwards;
 }
 
@@ -133,7 +134,7 @@ button {
 }
 
 .navwrap {
-  min-height: 76px;
+  min-height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -142,12 +143,12 @@ button {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .mark {
-  width: 42px;
-  height: 42px;
+  width: 38px;
+  height: 38px;
   background: var(--accent-glow);
   border: 1px solid var(--accent);
   color: var(--accent);
@@ -155,7 +156,7 @@ button {
   display: grid;
   place-items: center;
   font-weight: 800;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.05em;
   overflow: hidden;
   padding: 2px;
@@ -176,29 +177,29 @@ button {
 
 .brand-name {
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14.5px;
   color: var(--text);
 }
 
 .brand-role {
-  font-size: 12px;
+  font-size: 11.5px;
   color: var(--text-muted);
 }
 
 .nav-right {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
 }
 
 .main-nav {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 22px;
 }
 
 .main-nav a {
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 500;
   color: var(--text-muted);
   transition: color 0.2s ease;
@@ -212,8 +213,8 @@ button {
   background: var(--card-bg);
   border: 1px solid var(--border);
   color: var(--text);
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 8px;
   display: grid;
   place-items: center;
@@ -232,16 +233,16 @@ button {
   color: var(--text);
 }
 
-/* HERO SECTION */
+/* HERO SECTION - TIGHTER PADDING */
 .hero-section {
-  padding: 110px 0 90px;
+  padding: 40px 0 36px;
   border-bottom: 1px solid var(--border);
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
-  gap: 70px;
+  gap: 36px;
   align-items: center;
 }
 
@@ -251,17 +252,17 @@ button {
   gap: 8px;
   background: var(--accent-glow);
   border: 1px solid var(--accent);
-  padding: 6px 14px;
+  padding: 5px 12px;
   border-radius: 20px;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 600;
   color: var(--accent);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .pulse-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background: var(--accent);
   box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
@@ -281,11 +282,11 @@ button {
 }
 
 .hero-title {
-  font-size: clamp(40px, 5.5vw, 68px);
-  line-height: 1.05;
+  font-size: clamp(34px, 4.8vw, 56px);
+  line-height: 1.08;
   font-weight: 800;
   letter-spacing: -0.04em;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .hero-title em {
@@ -294,27 +295,27 @@ button {
 }
 
 .hero-lead {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--text-muted);
-  line-height: 1.7;
-  max-width: 620px;
-  margin-bottom: 32px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 20px;
 }
 
 .hero-actions {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 12px 22px;
+  gap: 7px;
+  padding: 10px 18px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 600;
   transition: all 0.2s ease;
   border: 1px solid transparent;
@@ -357,8 +358,8 @@ button {
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  padding-top: 24px;
+  gap: 12px;
+  padding-top: 18px;
   border-top: 1px solid var(--border-subtle);
 }
 
@@ -368,13 +369,13 @@ button {
 }
 
 .stat-val {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 800;
   color: var(--text);
 }
 
 .stat-lbl {
-  font-size: 12px;
+  font-size: 11.5px;
   color: var(--text-muted);
 }
 
@@ -382,13 +383,12 @@ button {
 .profile-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 32px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 440px;
   transition: border-color 0.3s ease;
 }
 
@@ -403,9 +403,9 @@ button {
 }
 
 .card-tag {
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--text-dim);
 }
 
@@ -415,23 +415,23 @@ button {
 
 .card-center {
   text-align: center;
-  padding: 24px 0;
+  padding: 16px 0;
 }
 
 .avatar-monogram, .avatar-img-wrap {
-  width: 96px;
-  height: 96px;
-  margin: 0 auto 16px;
+  width: 84px;
+  height: 84px;
+  margin: 0 auto 12px;
   border-radius: 50%;
   background: var(--accent-glow);
   border: 2px solid var(--accent);
   color: var(--accent);
   display: grid;
   place-items: center;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 800;
   padding: 3px;
-  box-shadow: 0 0 20px rgba(16, 185, 129, 0.25);
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
 }
 
 .avatar-img {
@@ -443,50 +443,50 @@ button {
 }
 
 .avatar-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .avatar-subtitle {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--text-muted);
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .skill-pills-mini {
   display: flex;
   justify-content: center;
-  gap: 6px;
+  gap: 5px;
   flex-wrap: wrap;
 }
 
 .skill-pills-mini span {
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 11px;
   color: var(--text-muted);
 }
 
 .card-bottom {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  padding-top: 20px;
+  gap: 12px;
+  padding-top: 14px;
   border-top: 1px solid var(--border);
 }
 
 .card-meta strong {
   display: block;
-  font-size: 12px;
+  font-size: 11.5px;
   color: var(--text);
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 .card-meta span {
-  font-size: 11px;
+  font-size: 10.5px;
   color: var(--text-muted);
 }
 
@@ -494,7 +494,7 @@ button {
 .grid-two {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
-  gap: 70px;
+  gap: 40px;
 }
 
 .align-center {
@@ -502,35 +502,35 @@ button {
 }
 
 .section-header h2 {
-  font-size: clamp(30px, 3.5vw, 44px);
-  line-height: 1.1;
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1.12;
   font-weight: 800;
   letter-spacing: -0.03em;
 }
 
 .header-subtitle {
-  margin-top: 12px;
+  margin-top: 8px;
   color: var(--text-muted);
-  font-size: 16px;
+  font-size: 15px;
   max-width: 480px;
 }
 
 .about-body p {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--text-muted);
-  line-height: 1.8;
-  margin-bottom: 20px;
+  line-height: 1.7;
+  margin-bottom: 14px;
 }
 
 .about-link-wrap {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .inline-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 14px;
+  gap: 5px;
+  font-size: 13.5px;
   font-weight: 700;
   color: var(--accent);
 }
@@ -548,14 +548,14 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 40px;
-  margin-bottom: 36px;
+  gap: 24px;
+  margin-bottom: 24px;
 }
 
 .filter-bar {
   display: flex;
-  gap: 10px;
-  margin-bottom: 36px;
+  gap: 8px;
+  margin-bottom: 24px;
   flex-wrap: wrap;
 }
 
@@ -563,9 +563,9 @@ button {
   background: var(--card-bg);
   border: 1px solid var(--border);
   color: var(--text-muted);
-  padding: 8px 18px;
-  border-radius: 8px;
-  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 12.5px;
   font-weight: 600;
   transition: all 0.2s ease;
 }
@@ -579,27 +579,27 @@ button {
 .projects-grid {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 
 .project-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 32px;
+  border-radius: 12px;
+  padding: 24px;
   display: grid;
-  grid-template-columns: 70px 1fr;
-  gap: 24px;
-  transition: all 0.25s ease;
+  grid-template-columns: 50px 1fr;
+  gap: 16px;
+  transition: all 0.2s ease;
 }
 
 .project-card:hover {
   border-color: var(--accent);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
 .card-num {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 800;
   color: var(--text-dim);
 }
@@ -608,30 +608,30 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 16px;
-  margin-bottom: 12px;
+  gap: 12px;
+  margin-bottom: 8px;
 }
 
 .category-tag {
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: var(--accent);
   text-transform: uppercase;
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .project-title {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 700;
   color: var(--text);
 }
 
 .status-badge-sm {
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 10.5px;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -655,10 +655,10 @@ button {
 }
 
 .project-desc {
-  font-size: 15px;
+  font-size: 14.5px;
   color: var(--text-muted);
-  line-height: 1.7;
-  margin-bottom: 24px;
+  line-height: 1.6;
+  margin-bottom: 16px;
   max-width: 780px;
 }
 
@@ -666,22 +666,22 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
 .stack-tags {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
 }
 
 .stack-pill {
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 11.5px;
   color: var(--text-muted);
   font-family: monospace;
 }
@@ -689,19 +689,19 @@ button {
 .project-actions {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .live-link-btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 14px;
+  gap: 5px;
+  padding: 5px 12px;
   background: var(--accent-glow);
   border: 1px solid var(--accent);
   color: var(--accent);
-  border-radius: 6px;
-  font-size: 12px;
+  border-radius: 5px;
+  font-size: 11.5px;
   font-weight: 700;
   transition: all 0.2s ease;
 }
@@ -715,7 +715,7 @@ button {
   background: none;
   border: none;
   color: var(--text-muted);
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -731,16 +731,16 @@ button {
 /* SKILLS SECTION */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-  margin-top: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
 }
 
 .skill-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 28px;
+  border-radius: 10px;
+  padding: 20px;
   transition: border-color 0.2s ease;
 }
 
@@ -751,13 +751,13 @@ button {
 .skill-card-head {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 20px;
+  gap: 12px;
+  margin-bottom: 14px;
 }
 
 .icon-box {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 8px;
   background: var(--accent-glow);
   border: 1px solid var(--accent);
@@ -767,22 +767,22 @@ button {
 }
 
 .skill-card-head h3 {
-  font-size: 18px;
+  font-size: 16.5px;
   font-weight: 700;
 }
 
 .skill-pills-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .skill-tag {
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 12px;
   color: var(--text);
   font-weight: 500;
 }
@@ -793,75 +793,75 @@ button {
 }
 
 .timeline-box {
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 .timeline-item {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 28px;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .timeline-head {
   display: flex;
   align-items: flex-start;
-  gap: 14px;
-  margin-bottom: 16px;
+  gap: 12px;
+  margin-bottom: 12px;
 }
 
 .timeline-icon {
   color: var(--accent);
-  margin-top: 4px;
+  margin-top: 3px;
 }
 
 .timeline-head h3 {
-  font-size: 18px;
+  font-size: 16.5px;
   font-weight: 700;
 }
 
 .role-subtitle {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--text-muted);
   display: block;
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .timeline-desc {
-  font-size: 14px;
+  font-size: 13.5px;
   color: var(--text-muted);
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .timeline-bullets {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .timeline-bullets li {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
-  font-size: 13.5px;
+  gap: 8px;
+  font-size: 13px;
   color: var(--text);
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 .edu-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 28px;
-  margin-top: 24px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 16px;
 }
 
 .edu-head {
   display: flex;
   align-items: flex-start;
-  gap: 14px;
-  margin-bottom: 20px;
+  gap: 12px;
+  margin-bottom: 14px;
 }
 
 .edu-icon {
@@ -870,31 +870,31 @@ button {
 }
 
 .edu-head h3 {
-  font-size: 18px;
+  font-size: 16.5px;
   font-weight: 700;
 }
 
 .edu-body h4 {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.05em;
   color: var(--text-dim);
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .edu-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .edu-tags span {
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 12px;
   color: var(--text);
 }
 
@@ -906,17 +906,17 @@ button {
 .impact-box {
   background: var(--card-bg);
   border: 1px solid var(--accent);
-  border-radius: 16px;
-  padding: 48px;
+  border-radius: 14px;
+  padding: 28px;
   display: grid;
-  grid-template-columns: 60px 1fr;
-  gap: 32px;
+  grid-template-columns: 50px 1fr;
+  gap: 24px;
 }
 
 .impact-badge {
-  width: 60px;
-  height: 60px;
-  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
   background: var(--accent-glow);
   border: 1px solid var(--accent);
   color: var(--accent);
@@ -925,44 +925,44 @@ button {
 }
 
 .impact-details h2 {
-  font-size: clamp(26px, 3vw, 36px);
-  margin: 8px 0 16px;
+  font-size: clamp(24px, 2.8vw, 32px);
+  margin: 4px 0 12px;
 }
 
 .impact-text {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--text-muted);
-  line-height: 1.8;
+  line-height: 1.7;
   max-width: 800px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .impact-metrics-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 14px;
 }
 
 .impact-card {
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 16px;
+  border-radius: 8px;
 }
 
 .impact-icon {
   color: var(--accent);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .impact-card h4 {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .impact-card p {
-  font-size: 13px;
+  font-size: 12.5px;
   color: var(--text-muted);
 }
 
@@ -974,50 +974,51 @@ button {
 .contact-container {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
-  gap: 60px;
+  gap: 36px;
   align-items: center;
 }
 
 .contact-main h2 {
-  font-size: clamp(34px, 4vw, 52px);
-  margin-bottom: 16px;
+  font-size: clamp(28px, 3.5vw, 44px);
+  margin-bottom: 12px;
 }
 
 .contact-main p {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--text-muted);
-  line-height: 1.7;
+  line-height: 1.6;
   max-width: 540px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .contact-buttons {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .contact-socials-box h4 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .social-links-grid {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .social-card {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  padding: 14px 20px;
-  border-radius: 10px;
+  padding: 12px 16px;
+  border-radius: 8px;
   color: var(--text);
+  font-size: 13.5px;
   font-weight: 600;
   transition: all 0.2s ease;
 }
@@ -1025,7 +1026,6 @@ button {
 .social-card:hover {
   border-color: var(--accent);
   color: var(--accent);
-
 }
 
 .ext-icon {
@@ -1042,55 +1042,55 @@ button {
   backdrop-filter: blur(8px);
   display: grid;
   place-items: center;
-  padding: 20px;
+  padding: 16px;
 }
 
 .modal-content {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 16px;
-  max-width: 600px;
+  border-radius: 14px;
+  max-width: 560px;
   width: 100%;
-  padding: 36px;
+  padding: 28px;
   position: relative;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.3);
 }
 
 .modal-close {
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 18px;
+  right: 18px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   color: var(--text);
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
   display: grid;
   place-items: center;
 }
 
 .modal-header {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .modal-header h3 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 800;
-  margin: 6px 0 10px;
+  margin: 4px 0 8px;
 }
 
 .modal-long-desc {
-  font-size: 15px;
+  font-size: 14px;
   color: var(--text-muted);
-  line-height: 1.7;
-  margin-bottom: 24px;
+  line-height: 1.6;
+  margin-bottom: 18px;
 }
 
 .modal-body h4 {
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-dim);
@@ -1100,15 +1100,15 @@ button {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-bottom: 24px;
+  gap: 8px;
+  margin-bottom: 18px;
 }
 
 .highlights-list li {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 14px;
+  gap: 8px;
+  font-size: 13.5px;
   color: var(--text);
 }
 
@@ -1119,9 +1119,9 @@ button {
 .modal-footer {
   display: flex;
   justify-content: flex-end;
-  gap: 12px;
-  margin-top: 28px;
-  padding-top: 20px;
+  gap: 10px;
+  margin-top: 20px;
+  padding-top: 16px;
   border-top: 1px solid var(--border);
 }
 
@@ -1129,8 +1129,8 @@ button {
 .site-footer {
   background: var(--bg-secondary);
   border-top: 1px solid var(--border);
-  padding: 40px 0;
-  font-size: 13px;
+  padding: 24px 0;
+  font-size: 12.5px;
   color: var(--text-muted);
 }
 
@@ -1138,14 +1138,14 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
 .foot-left {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
 }
 
 .colophon-text {
@@ -1156,15 +1156,18 @@ button {
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 960px) {
   .hero-section {
-    padding: 48px 0 60px;
+    padding: 28px 0 36px;
+  }
+  .section-padding {
+    padding: 36px 0;
   }
   .hero-grid, .grid-two, .contact-container {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 28px;
   }
   .impact-box {
     grid-template-columns: 1fr;
-    padding: 32px;
+    padding: 20px;
   }
   .impact-metrics-grid {
     grid-template-columns: 1fr;
@@ -1172,31 +1175,34 @@ button {
   .section-header-flex {
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 12px;
   }
 }
 
 @media (max-width: 768px) {
   .hero-section {
-    padding: 28px 0 48px;
+    padding: 20px 0 28px;
+  }
+  .section-padding {
+    padding: 28px 0;
   }
   .status-badge {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
   .main-nav {
     display: none;
     position: absolute;
-    top: 76px;
+    top: 64px;
     left: 15px;
     right: 15px;
     background: var(--card-bg);
     border: 1px solid var(--border);
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
     flex-direction: column;
     align-items: stretch;
-    gap: 16px;
+    gap: 12px;
   }
   .main-nav.open {
     display: flex;
@@ -1209,7 +1215,7 @@ button {
   }
   .project-card {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 10px;
   }
   .project-footer {
     flex-direction: column;
@@ -1219,6 +1225,9 @@ button {
 
 @media (max-width: 480px) {
   .hero-section {
-    padding: 20px 0 36px;
+    padding: 14px 0 24px;
+  }
+  .section-padding {
+    padding: 20px 0;
   }
 }
