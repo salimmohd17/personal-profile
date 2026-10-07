@@ -1156,18 +1156,18 @@ button {
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 960px) {
   .hero-section {
-    padding: 31px 0 39px;
+    padding: 44px 0 48px;
   }
   .section-padding {
-    padding: 41px 0;
+    padding: 56px 0;
   }
   .hero-grid, .grid-two, .contact-container {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 36px;
   }
   .impact-box {
     grid-template-columns: 1fr;
-    padding: 20px;
+    padding: 28px;
   }
   .impact-metrics-grid {
     grid-template-columns: 1fr;
@@ -1175,19 +1175,22 @@ button {
   .section-header-flex {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 14px;
   }
 }
 
 @media (max-width: 768px) {
   .hero-section {
-    padding: 24px 0 29px;
+    padding: 36px 0 40px;
   }
   .section-padding {
-    padding: 33px 0;
+    padding: 48px 0;
+  }
+  .hero-grid, .grid-two, .contact-container {
+    gap: 32px;
   }
   .status-badge {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
   .main-nav {
     display: none;
@@ -1215,7 +1218,7 @@ button {
   }
   .project-card {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 14px;
   }
   .project-footer {
     flex-direction: column;
@@ -1225,9 +1228,12 @@ button {
 
 @media (max-width: 480px) {
   .hero-section {
-    padding: 15px 0 24px;
+    padding: 28px 0 32px;
   }
   .section-padding {
-    padding: 26px 0;
+    padding: 40px 0;
+  }
+  .hero-grid, .grid-two, .contact-container {
+    gap: 28px;
   }
 }
