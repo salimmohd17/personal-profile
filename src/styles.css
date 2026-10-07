@@ -1181,10 +1181,10 @@ button {
 
 @media (max-width: 768px) {
   .hero-section {
-    padding: 20px 0 28px;
+    padding: 23px 0 28px;
   }
   .section-padding {
-    padding: 28px 0;
+    padding: 31px 0;
   }
   .status-badge {
     margin-bottom: 12px;
