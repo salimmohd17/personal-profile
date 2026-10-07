@@ -77,8 +77,8 @@ button {
 
 /* REDUCED SECTION PADDING */
 .section-padding {
-  padding: 48px 0;
-  border-bottom: 1px solid var(--border-subtle);
+  padding: 53px 0;
+  border-bottom: 2px solid var(--border-subtle);
 }
 
 .section-eyebrow {
