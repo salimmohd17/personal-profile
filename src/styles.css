@@ -1156,10 +1156,10 @@ button {
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 960px) {
   .hero-section {
-    padding: 31px 0 36px;
+    padding: 31px 0 39px;
   }
   .section-padding {
-    padding: 39px 0;
+    padding: 41px 0;
   }
   .hero-grid, .grid-two, .contact-container {
     grid-template-columns: 1fr;
@@ -1181,10 +1181,10 @@ button {
 
 @media (max-width: 768px) {
   .hero-section {
-    padding: 23px 0 28px;
+    padding: 24px 0 29px;
   }
   .section-padding {
-    padding: 31px 0;
+    padding: 33px 0;
   }
   .status-badge {
     margin-bottom: 12px;
