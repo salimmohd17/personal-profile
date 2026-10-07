@@ -1225,9 +1225,9 @@ button {
 
 @media (max-width: 480px) {
   .hero-section {
-    padding: 14px 0 24px;
+    padding: 15px 0 24px;
   }
   .section-padding {
-    padding: 20px 0;
+    padding: 23px 0;
   }
 }
