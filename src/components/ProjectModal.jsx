@@ -47,7 +47,7 @@ export default function ProjectModal({ project, onClose }) {
               rel="noreferrer"
               className="btn btn-primary"
             >
-              Visit Live Site <ExternalLink size={16} />
+              {project.link.includes('github.com') ? 'View on GitHub' : 'Visit Live Site'} <ExternalLink size={16} />
             </a>
           )}
           <button className="btn btn-secondary" onClick={onClose}>

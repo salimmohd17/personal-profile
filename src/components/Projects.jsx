@@ -68,7 +68,7 @@ export default function Projects({ onSelectProject }) {
                         rel="noreferrer"
                         className="live-link-btn"
                       >
-                        Visit Live Site <ExternalLink size={14} />
+                        {p.link.includes('github.com') ? 'View on GitHub' : 'Visit Live Site'} <ExternalLink size={14} />
                       </a>
                     )}
                     <button

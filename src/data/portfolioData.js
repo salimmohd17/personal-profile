@@ -40,6 +40,19 @@ export const projects = [
   },
   {
     id: '04',
+    title: 'My Life Notes App',
+    category: 'Full-Stack Web Application',
+    filterCat: 'Web Apps',
+    desc: 'An end-to-end full-stack notes platform with client-server CRUD operations, instant search, categories, note pinning, color themes, and SQLite persistence.',
+    longDesc: 'Engineered an end-to-end full-stack Notes Application built with React 19, Vite, Node.js, Express, and persistent SQLite database (WAL mode). Features complete RESTful API architecture, real-time debounced title and content search, dynamic category taxonomy, note pinning, 8 customizable color palettes, responsive card grid and compact list dual views, and keyboard shortcuts.',
+    stack: ['React 19', 'Node.js', 'Express', 'SQLite', 'REST APIs', 'Lucide Icons'],
+    status: 'Completed',
+    statusType: 'featured',
+    link: 'https://github.com/salimmohd17/intern-notes-app',
+    highlights: ['End-to-End Client & Server CRUD', 'Persistent SQLite Storage (WAL Mode)', 'Real-Time Search & Category Filters', 'Dual View Modes (Grid & List)', 'Keyboard Shortcuts & Live Healthcheck']
+  },
+  {
+    id: '05',
     title: 'Personal Trading Workstation',
     category: 'Trading Technology',
     filterCat: 'In Development',
@@ -52,7 +65,7 @@ export const projects = [
     highlights: ['Live Market Data API', 'Risk & Position Management', 'Automated Indicator Tools']
   },
   {
-    id: '05',
+    id: '06',
     title: 'Full-Stack E-Commerce Engine',
     category: 'Web Application',
     filterCat: 'Web Apps',
@@ -70,7 +83,7 @@ export const skillCategories = [
   {
     title: 'Frontend Development',
     categoryKey: 'frontend',
-    items: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React', 'Next.js', 'Vite', 'Tailwind CSS', 'Responsive UI']
+    items: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React 19', 'Next.js', 'Vite', 'Tailwind CSS', 'Responsive UI']
   },
   {
     title: 'Backend Systems',
@@ -80,7 +93,7 @@ export const skillCategories = [
   {
     title: 'Databases & Data',
     categoryKey: 'database',
-    items: ['MySQL', 'SQL Optimization', 'MongoDB', 'Data Modeling']
+    items: ['MySQL', 'SQLite', 'SQL Optimization', 'MongoDB', 'Data Modeling']
   },
   {
     title: 'Programming Languages',
@@ -100,7 +113,7 @@ export const skillCategories = [
 ];
 
 export const stats = [
-  { label: 'Live Projects', value: '3 Active' },
+  { label: 'Projects Built', value: '6 Projects' },
   { label: 'Education', value: 'B.Sc. IT (MMUST)' },
   { label: 'Experience', value: 'M&E & Tech' },
   { label: 'Location', value: 'Kenya 🇰🇪' }
