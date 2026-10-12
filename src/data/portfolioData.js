@@ -46,9 +46,9 @@ export const projects = [
     desc: 'An end-to-end full-stack notes platform with client-server CRUD operations, instant search, categories, note pinning, color themes, and SQLite persistence.',
     longDesc: 'Engineered an end-to-end full-stack Notes Application built with React 19, Vite, Node.js, Express, and persistent SQLite database (WAL mode). Features complete RESTful API architecture, real-time debounced title and content search, dynamic category taxonomy, note pinning, 8 customizable color palettes, responsive card grid and compact list dual views, and keyboard shortcuts.',
     stack: ['React 19', 'Node.js', 'Express', 'SQLite', 'REST APIs', 'Lucide Icons'],
-    status: 'Completed',
-    statusType: 'featured',
-    link: 'https://github.com/salimmohd17/intern-notes-app',
+    status: 'Live Project',
+    statusType: 'live',
+    link: 'https://codenovatask1-fullstack-salim-mohamed.netlify.app/',
     highlights: ['End-to-End Client & Server CRUD', 'Persistent SQLite Storage (WAL Mode)', 'Real-Time Search & Category Filters', 'Dual View Modes (Grid & List)', 'Keyboard Shortcuts & Live Healthcheck']
   },
   {
